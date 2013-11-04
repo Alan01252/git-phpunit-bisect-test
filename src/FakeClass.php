@@ -12,4 +12,11 @@ class FakeClass
 
 		return $things;
 	}
+
+	public function getTwoThings()
+	{
+		$things = ['one', 'two'];
+
+		return $things;
+	}
 }
