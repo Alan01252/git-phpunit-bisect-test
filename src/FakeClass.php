@@ -5,7 +5,7 @@ class FakeClass
 	 */
 	public function getFourThings()
 	{
-		$things = ['one', 'two', 'three'];
+		$things = ['one', 'two', 'three', 'four'];
 
 		return $things;
 	}
