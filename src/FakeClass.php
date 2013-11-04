@@ -2,13 +2,22 @@
 class FakeClass
 {
 	/**
+	 */
+	public function getFourThings()
+	{
+		$things = ['one', 'two', 'three'];
+
+		return $things;
+	}
+
+	/**
 	 * Returns three things
 	 *
 	 * @return array
 	 */
 	public function getThreeThings()
 	{
-		$things = ['one', 'two', 'three'];
+		$things = ['one', 'two', 'three', 'four'];
 
 		return $things;
 	}
