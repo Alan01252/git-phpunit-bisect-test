@@ -13,6 +13,9 @@ class FakeClass
 		return $things;
 	}
 
+	/**
+	 * Returns two things
+	 */
 	public function getTwoThings()
 	{
 		$things = ['one', 'two'];
