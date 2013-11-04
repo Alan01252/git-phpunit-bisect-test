@@ -15,6 +15,8 @@ class FakeClass
 
 	/**
 	 * Returns two things
+	 *
+	 * @return array
 	 */
 	public function getTwoThings()
 	{
