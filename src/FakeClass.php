@@ -3,6 +3,8 @@ class FakeClass
 {
 	/**
 	 * Returns three things
+	 *
+	 * @return array
 	 */
 	public function getThreeThings()
 	{
